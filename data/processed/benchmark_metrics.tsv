@@ -1,0 +1,9 @@
+model	model_family	selection_rule	mse_29d	pearson_r_29d
+Linear trend	statistical	fixed rule over days 1, 4, and 8	4.57387	0.778994
+Log-time trend	statistical	fixed rule over days 1, 4, and 8	0.494299	0.868794
+Early mean	statistical	fixed rule over days 1, 4, and 8	0.292122	0.927249
+Persistence	statistical	day-8 state carried forward	0.244911	0.920083
+Linear transition	learned	configuration selected by day-15 MSE	0.238077	0.932971
+MLP transition	learned	configuration selected by day-15 MSE	0.197	0.934
+PKT-ODE	mechanistic	fit through day 8	0.148	0.960
+

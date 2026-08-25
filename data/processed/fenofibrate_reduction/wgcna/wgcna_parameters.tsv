@@ -1,0 +1,19 @@
+parameter	value
+selected_power	12
+network_type	signed
+correlation	bicor
+scale_free_r2_threshold	0.8
+min_mean_connectivity	5
+deep_split	4
+min_module_size	10
+merge_cut_height	0.05
+max_block_size	5000
+max_p_outliers	0.1
+seed	42
+threads	1
+n_samples	54
+n_genes	311
+n_non_grey_modules	7
+r_version	R version 4.4.3 (2025-02-28)
+wgcna_version	1.74
+data_table_version	1.18.2.1

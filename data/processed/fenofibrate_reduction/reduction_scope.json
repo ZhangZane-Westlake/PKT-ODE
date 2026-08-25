@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "organ": "liver",
+  "compound_slug": "fenofibrate",
+  "split_id": "publication",
+  "config_id": "wgcna_ds4_mms10_merge005",
+  "is_compound_scope": true,
+  "run_name": "publication_snapshot"
+}
+

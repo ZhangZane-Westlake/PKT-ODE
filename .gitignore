@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PKT-ODE publication outputs
+.DS_Store
+.project_memory/
+data/raw/
+data/expression/
+results/reproduction/
+results/reproduced_figures/
