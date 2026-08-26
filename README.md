@@ -1,8 +1,13 @@
 # PKT-ODE
 
-Code and compact analysis data for **“A pharmacokinetics-informed ODE extrapolates long-term fenofibrate transcriptomic responses.”**
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-10.64898%2F2026.08.25.746919-B31B1B)](https://doi.org/10.64898/2026.08.25.746919)
 
-PKT-ODE links a once-daily oral pharmacokinetic profile to a Hill drug-effect signal and then to first-order turnover of transcriptomic co-expression modules. The publication analysis uses Open TG-GATEs rat-liver data for fenofibrate at 10, 100, and 1,000 mg/kg/day. Model fitting uses 54 replicate profiles through day 8; day 15 is held out as an intermediate endpoint and day 29 is the test endpoint.
+Code and compact analysis data accompanying the preprint:
+
+**Gao Y, Zhang Z, Li Y, Qiu J. “A pharmacokinetics-informed ODE extrapolates long-term fenofibrate transcriptomic responses.”**  
+*bioRxiv* (2026). https://doi.org/10.64898/2026.08.25.746919
+
+PKT-ODE links a once-daily oral pharmacokinetic profile to a Hill-type drug-effect signal and then to first-order turnover dynamics of transcriptomic co-expression modules. The publication analysis uses Open TG-GATEs rat-liver data for fenofibrate at 10, 100, and 1,000 mg/kg/day. Model fitting uses 54 replicate profiles through day 8; day 15 is held out as an intermediate validation endpoint, and day 29 is reserved as the final test endpoint.
 
 ![PKT-ODE overview and benchmark](results/figures/Fig1_overview_benchmark.png)
 
@@ -214,9 +219,9 @@ The test suite checks data axes, numerical bounds, published-parameter re-simula
 
 ## Citation
 
-If you use this repository, cite the associated preprint:
+If you use this repository, please cite the associated preprint:
 
-> Gao Y, Zhang Z, Li Y, Qiu J. A pharmacokinetics-informed ODE extrapolates long-term fenofibrate transcriptomic responses. bioRxiv (2026).
+> Gao Y, Zhang Z, Li Y, Qiu J. **A pharmacokinetics-informed ODE extrapolates long-term fenofibrate transcriptomic responses.** *bioRxiv* (2026). https://doi.org/10.64898/2026.08.25.746919
 
 ## License
 
